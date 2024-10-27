@@ -8,6 +8,7 @@ def ler_dados_instancia(caminho_arquivo):
     
     num_cidades = int(linhas[0].strip())
     num_centros = int(linhas[1].strip())
+    print(num_cidades, num_centros)
     
     # Armazenar coordenadas, número de entregas e elegibilidade como centro de distribuição
     coordenadas = []
