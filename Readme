@@ -1,0 +1,23 @@
+Programação Linear - Trabalho Final
+
+O trabalho consiste da modelagem e implementação de um problema de otimização
+O trabalho deve conter um relatório e a implementação do problema. 
+O relatório deve conter: 
+– A apresentação detalhada do problema 
+– A modelagem do problema, justificando cada passo da modelagem, ou seja, definindo as variáveis de decisão, a função objetivo, as restrições e parâmetros (modelo na forma algébrica)
+– Experimentos computacionais
+– Resultados obtidos
+– Conclusão
+
+Problema 2:
+Uma empresa deseja instalar m centros de distribuição de produtos para atender a n localidades representadas por L1, L2, . . . , Ln. Inicialmente a empresa determinou dentre as n localidades a serem atendidas, um conjunto C contendo aquelas que estariam aptas a receber os centros de distribuição, levando em conta fatores econômicos e estruturais das cidades envolvidas. A empresa estima o número de viagens que serão feitas para cada uma das n localidades a cada semana. 
+a) Determine quais localidades devem ser escolhidas para abrigar os centros de distribuição, associando a cada uma delas os clientes que devem ser atendidos pelas mesmas, de modo que se minimize a distância total percorrida para as entregas semanais. 
+b) Determine as localidades para os centros de distribuição supondo agora que a empresa deseja escolher tais localidades de maneira que as distâncias semanais percorridas pelos veículos de cada centro sejam as mais próximas possíveis, ou seja, de modo que haja equilíbrio entre as distâncias percorridas pelas frotas de cada centro de distribuição. 
+Utilize distância euclidiana (em linha reta) entre as localidades.
+
+Dados do problema:
+- Primeira Linha: Número de cidades
+- Segunda Linha: Número de centros de distribuição que devem ser criados
+- Primeira e Segunda colunas: Coordenadas cartesianas de cada cidade (x, y)
+- Terceira Coluna: Número de entregas em cada cidade
+- Quarta Coluna: Indica de a cidade pode (1) ou não (0) ser centro de distribuição
