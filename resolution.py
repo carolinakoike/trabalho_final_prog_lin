@@ -39,6 +39,6 @@ def calcular_distancias(coordenadas):
     return distancias
 
 # Carrega os dados
-caminho_arquivo = '/Dados/.txt'  # substitua pelo caminho do arquivo
+caminho_arquivo = 'Dados/inst_20_3.txt'  # substitua pelo caminho do arquivo
 num_cidades, num_centros, coordenadas, entregas, elegivel_centro = ler_dados_instancia(caminho_arquivo)
 distancias = calcular_distancias(coordenadas)
