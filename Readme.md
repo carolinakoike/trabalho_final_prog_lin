@@ -59,8 +59,13 @@ Para executar os scripts, é necessário:
    git clone https://github.com/carolinakoike/trabalho_final_prog_lin.git
    ```
 
-2. Configuração dos Arquivos de Dados
-Os arquivos de dados utilizados para resolver o problema estão localizados na pasta 'dados/'. Para executar o script com um arquivo específico, é necessário alterar o nome do arquivo na linha 22 do script principal:
+2. Instalação das bibliotecas necessárias:
+      ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Configuração dos Arquivos de Dados:
+   Os arquivos de dados utilizados para resolver o problema estão localizados na pasta 'dados/'. Para executar o script com um arquivo específico, é necessário alterar o nome do arquivo na linha 22 do script principal:
 
    ```bash
    arquivo = 'dados/inst_60_12.txt'  # Caminho do arquivo
