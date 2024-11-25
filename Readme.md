@@ -65,13 +65,15 @@ pip install -r requirements.txt
 ```
 
 3. Configuração dos Arquivos de Dados:
-   Os arquivos de dados utilizados para resolver o problema estão localizados na pasta 'dados/'. Para executar o script com um arquivo específico, é necessário alterar o nome do arquivo na linha 22 do script principal:
+
+Os arquivos de dados utilizados para resolver o problema estão localizados na pasta 'dados/'. Para executar o script com um arquivo específico, é necessário alterar o nome do arquivo na linha 22 do script principal:
 
 ```bash
 arquivo = 'dados/inst_60_12.txt'  # Caminho do arquivo
 ```
 
 4. Passos para usar um arquivo diferente:
+
 Abra o script Python no editor de sua preferência.
 Localize a linha 22.
 Substitua 'dados/inst_60_12.txt' pelo caminho relativo ao arquivo de dados desejado. Por exemplo:
