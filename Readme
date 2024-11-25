@@ -1,23 +1,60 @@
-Programação Linear - Trabalho Final
+# Programação Linear - Trabalho Final
 
-O trabalho consiste da modelagem e implementação de um problema de otimização
-O trabalho deve conter um relatório e a implementação do problema. 
-O relatório deve conter: 
-– A apresentação detalhada do problema 
-– A modelagem do problema, justificando cada passo da modelagem, ou seja, definindo as variáveis de decisão, a função objetivo, as restrições e parâmetros (modelo na forma algébrica)
-– Experimentos computacionais
-– Resultados obtidos
-– Conclusão
+Este repositório contém a modelagem, implementação e análise de um problema de otimização relacionado à localização de centros de distribuição. O projeto inclui o relatório completo e os scripts de programação utilizados.
 
-Problema 2:
-Uma empresa deseja instalar m centros de distribuição de produtos para atender a n localidades representadas por L1, L2, . . . , Ln. Inicialmente a empresa determinou dentre as n localidades a serem atendidas, um conjunto C contendo aquelas que estariam aptas a receber os centros de distribuição, levando em conta fatores econômicos e estruturais das cidades envolvidas. A empresa estima o número de viagens que serão feitas para cada uma das n localidades a cada semana. 
-a) Determine quais localidades devem ser escolhidas para abrigar os centros de distribuição, associando a cada uma delas os clientes que devem ser atendidos pelas mesmas, de modo que se minimize a distância total percorrida para as entregas semanais. 
-b) Determine as localidades para os centros de distribuição supondo agora que a empresa deseja escolher tais localidades de maneira que as distâncias semanais percorridas pelos veículos de cada centro sejam as mais próximas possíveis, ou seja, de modo que haja equilíbrio entre as distâncias percorridas pelas frotas de cada centro de distribuição. 
-Utilize distância euclidiana (em linha reta) entre as localidades.
+## Descrição do Trabalho
 
-Dados do problema:
-- Primeira Linha: Número de cidades
-- Segunda Linha: Número de centros de distribuição que devem ser criados
-- Primeira e Segunda colunas: Coordenadas cartesianas de cada cidade (x, y)
-- Terceira Coluna: Número de entregas em cada cidade
-- Quarta Coluna: Indica de a cidade pode (1) ou não (0) ser centro de distribuição
+O objetivo do trabalho é resolver um problema de otimização utilizando programação linear. O estudo foca na escolha estratégica de localidades para instalação de centros de distribuição, considerando dois cenários principais:
+
+1. **Minimização das distâncias totais percorridas** para atender as cidades.
+2. **Equilíbrio entre as distâncias percorridas** pelos centros de distribuição, minimizando a diferença entre as maiores e menores distâncias percorridas.
+
+O relatório inclui:
+- Apresentação detalhada do problema.
+- Modelagem matemática, com definição das variáveis de decisão, função objetivo, restrições e parâmetros.
+- Experimentos computacionais utilizando o solver Gurobi.
+- Resultados obtidos e análise crítica.
+- Conclusão e sugestões para trabalhos futuros.
+
+## Problema
+
+Uma empresa deseja instalar \(m\) centros de distribuição para atender \(n\) localidades representadas por \(L_1, L_2, \dots, L_n\). Cada localidade possui uma quantidade estimada de entregas semanais, e algumas localidades são candidatas a abrigar os centros.
+
+### Objetivos
+
+- **Item (a):** Escolher localidades que minimizem a distância total percorrida para as entregas semanais.
+- **Item (b):** Escolher localidades de forma que as distâncias percorridas pelos veículos sejam equilibradas entre os centros.
+
+### Premissas
+- A distância entre as localidades é calculada utilizando a **distância euclidiana**.
+- O número de entregas semanais influencia diretamente o custo das distâncias.
+
+### Dados do Problema
+
+- **Primeira Linha:** Número de cidades.
+- **Segunda Linha:** Número de centros de distribuição a serem criados.
+- **Primeira e Segunda Colunas:** Coordenadas cartesianas de cada cidade (\(x, y\)).
+- **Terceira Coluna:** Número de entregas em cada cidade.
+- **Quarta Coluna:** Indica se a cidade pode (1) ou não (0) ser centro de distribuição.
+
+## Organização do Repositório
+
+O repositório contém os seguintes arquivos e diretórios:
+
+- `dados/`: Arquivos contendo os dados de entrada para os diferentes cenários.
+- `scripts/`: Implementação dos modelos de programação linear em Python, utilizando o solver Gurobi.
+- `resultados/`: Saídas geradas pelos experimentos computacionais.
+- `relatorio/`: Documento completo em PDF, contendo a modelagem, resultados e conclusões.
+
+## Requisitos
+
+Para executar os scripts, é necessário:
+- **Python 3.8 ou superior.**
+- **Gurobi Solver** com licença ativa.
+- Bibliotecas adicionais listadas no arquivo `requirements.txt`.
+
+## Como Executar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/carolinakoike/trabalho_final_prog_lin.git
