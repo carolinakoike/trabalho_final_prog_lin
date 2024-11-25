@@ -19,7 +19,7 @@ def ler_dados(arquivo):
     return num_cidades, num_centros, dados_cidades
 
 # Ler os dados do arquivo
-arquivo = 'Dados/inst_60_12.txt'  # Caminho do arquivo
+arquivo = 'dados/inst_60_12.txt'  # Caminho do arquivo
 num_cidades, num_centros, dados_cidades = ler_dados(arquivo)
 
 # Extrair coordenadas, número de entregas e elegibilidade
