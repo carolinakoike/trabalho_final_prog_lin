@@ -60,7 +60,7 @@ Para executar os scripts, é necessário:
    ```
 
 2. Configuração dos Arquivos de Dados
-Os arquivos de dados utilizados para resolver o problema estão localizados na pasta dados/. Para executar o script com um arquivo específico, é necessário alterar o nome do arquivo na linha 22 do script principal:
+Os arquivos de dados utilizados para resolver o problema estão localizados na pasta 'dados/'. Para executar o script com um arquivo específico, é necessário alterar o nome do arquivo na linha 22 do script principal:
 
    ```bash
    arquivo = 'dados/inst_60_12.txt'  # Caminho do arquivo
@@ -80,12 +80,12 @@ Para o arquivo inst_50_7.txt:
    ```
    
 Arquivos disponíveis:
--'inst_20_3.txt'
--'inst_20_4.txt'
--'inst_30_4.txt'
--'inst_40_8.txt'
--'inst_40_9.txt'
--'inst_50_7.txt'
--'inst_50_10.txt'
--'inst_60_11.txt'
--'inst_60_12.txt'
+- 'inst_20_3.txt'
+- 'inst_20_4.txt'
+- 'inst_30_4.txt'
+- 'inst_40_8.txt'
+- 'inst_40_9.txt'
+- 'inst_50_7.txt'
+- 'inst_50_10.txt'
+- 'inst_60_11.txt'
+- 'inst_60_12.txt'
